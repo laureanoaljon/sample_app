@@ -30,6 +30,11 @@ group :test do
   gem 'minitest-reporters', '1.0.5'
   gem 'mini_backtrace',     '0.1.3'
   gem 'guard-minitest',     '2.3.1'
+  #use for test (visit method)
+  gem 'capybara', '1.1.2'
+  gem 'factory_girl_rails', '4.1.0'
+  gem 'cucumber-rails', '1.2.1', :require => false
+  gem 'database_cleaner', '0.7.0'
 end
 
 group :production do
